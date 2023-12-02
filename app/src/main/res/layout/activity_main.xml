@@ -99,4 +99,15 @@
         app:layout_constraintStart_toEndOf="@+id/buttonRead"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="383dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/tbl"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

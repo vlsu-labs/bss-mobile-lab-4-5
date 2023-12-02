@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
 
 class DBHelper(context: Context?, private val logTag: String) :
-    SQLiteOpenHelper(context, "myDB", null, 1) {
+    SQLiteOpenHelper(context, "newMyDB", null, 1) {
     override fun onCreate(db: SQLiteDatabase) {
         Log.d(logTag, "--- onCreate database ---")
 
@@ -14,7 +14,8 @@ class DBHelper(context: Context?, private val logTag: String) :
             "create table mytable ("
                     + "id integer primary key autoincrement,"
                     + "name text,"
-                    + "email text" + ");"
+                    + "email text,"
+                    + "date text" + ");"
         )
     }
 
