@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">bss-mobile-lab-4-5</string>
-    <string name="magnetic_label">Магнитный сенсор</string>
-    <string name="acc_label">Акселерометр</string>
-    <string name="cloes_label">Приближение</string>
-    <string name="light_label">Освещеность</string>
-    <string name="light2_lable">Освещеность</string>
+    <string name="read">Read</string>
+    <string name="clear">Clear</string>
+    <string name="add">Add</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
 </resources>
