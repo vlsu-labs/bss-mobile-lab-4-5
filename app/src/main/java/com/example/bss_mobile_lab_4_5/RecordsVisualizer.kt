@@ -35,13 +35,13 @@ class RecordsVisualizer(private val display: TextView) {
         var maxLength = IntArray(records.size) { _ -> 0}
 
         for (i in records.indices) {
-            for (y in records.indices) {
+            for (y in records[i].indices) {
                 maxLength[y] = max(maxLength[y], records[i][y].length)
             }
         }
 
         for (i in records.indices) {
-            for (y in records.indices) {
+            for (y in records[i].indices) {
                 var delta = maxLength[y] - records[i][y].length
                 for (x in 0 until delta) {
                     if (isFillFromPrefix[y]) {

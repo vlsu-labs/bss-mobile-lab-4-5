@@ -6,10 +6,5 @@
     <string name="email">Email</string>
     <string name="name">Name</string>
     <string name="tbl">
-        \n
-        |-1--|-nam1-|-dat1-|\n
-        |-2--|-nam2-|-dat2-|\n
-        |-3--|-nam3-|-dat3-|\n
-        |-4--|-nam4-|-dat4-|\n
     </string>
 </resources>
